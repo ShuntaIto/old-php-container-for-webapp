@@ -1,6 +1,13 @@
-# old-php-container-for-webapp
-古いバージョンのPHPを含むWebアプリコンテナのサンプルです。
+# 概要
+古いバージョンのPHPを含むWebアプリコンテナのサンプルコードです。
 Azure Web App for Containersで動作する前提で書かれています。
+
+# データベース
+
+MySQLのデータベースを使用します。
+データベース名はphp、テーブル名はsampleとし、フォームに入力した数字でidキーに対してselectしたものを全件表示します。
+
+Azure Database for MySQLで検証していますが、dsnを適切に書き換えることで他のMySQL環境でも動作します。
 
 # 注意
 
